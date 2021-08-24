@@ -102,9 +102,9 @@ public class JsonFileWriter {
         hymn.put("index", index);
         hymn.put("name", name);
         hymn.put("audioLocations", generateList("/web/HYMNS/SINHALA/KG/AUDIO/"+fileIndex+".mp3"));
-        hymn.put("mp3Location", generateList("/web/HYMNS/SINHALA/KG/MP3/"+fileIndex+".mp3"));
-        hymn.put("midiLocation", generateList("/web/HYMNS/SINHALA/KG/MIDI/"+fileIndex+".mid"));
-        hymn.put("pdf", generateList("/web/HYMNS/SINHALA/KG/PDF/"+fileIndex+".pdf"));
+        hymn.put("mp3Locations", generateList("/web/HYMNS/SINHALA/KG/MP3/"+fileIndex+".mp3"));
+        hymn.put("midiLocations", generateList("/web/HYMNS/SINHALA/KG/MIDI/"+fileIndex+".mid"));
+        hymn.put("pdfLocations", generateList("/web/HYMNS/SINHALA/KG/PDF/"+fileIndex+".pdf"));
         return hymn;
     }
 
